@@ -2,8 +2,6 @@
 
 An augmented reality racing game built in Unity, demonstrating how to create compelling AR racing experiences. Originally built using AR Foundation to showcase AR Meshing LiDAR, the project has evolved to support both **Lightship ARDK** and **AR Foundation**. It provides different scenes for each technology, allowing developers to explore and compare AR implementations.
 
-:pushpin: Check out the original [YouTube AR Racing Game Video Series](https://www.youtube.com/watch?v=k2bpIXzwcWA&list=PLQMQNmwN3FvzKF1Yycc1WtpHrooTLPjDR) to understand the roots of this project.
-
 ## 🌟 Key Features
 - **Dual AR Support**: Fully functional scenes utilizing Lightship ARDK (Niantic) and AR Foundation (Unity).
 - **Advanced Car Physics & Controls**: Includes a custom-built physics-based `CarController` simulating wheel colliders, torque, steering, and braking.
@@ -30,8 +28,6 @@ An augmented reality racing game built in Unity, demonstrating how to create com
   - `ARPlacementReticle.cs`: Handles the UI reticle for placing objects in AR space.
 - **`Assets/Scriptables/Missions/`**: Contains the ScriptableObjects that define in-game missions. 
 
-## 🚀 Creating Missions
-Creating new missions is intuitive thanks to Unity's ScriptableObject workflow. A scriptable object template is included under `/Assets/Scriptables/Missions` to create new missions. Be sure to watch the [YouTube video series](https://www.youtube.com/watch?v=k2bpIXzwcWA&list=PLQMQNmwN3FvzKF1Yycc1WtpHrooTLPjDR) for a step-by-step process on extending the game's content.
 
 ## ⚙️ Getting Started
 1. Clone this repository to your local machine.
